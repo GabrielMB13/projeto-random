@@ -1,0 +1,112 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body{
+    background-color: #000000;
+    display: grid;
+    justify-items: center;
+}
+
+img{
+    width: 450px;
+    margin-top:auto;
+    
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    margin-bottom: 40px;
+
+}
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Garante que o texto fique acima e à esquerda */
+    text-align: left; /* Alinha o texto corretamente */
+    color: #ffffff;
+
+}
+
+.inputs-container {
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+
+input{
+    width: 250px;
+    height: 32px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top:3px;
+    padding-left: 5px;
+}
+
+.numero-sorteado{
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    top: 20px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    font-size: 30px;
+    color: rgb(255, 72, 0);
+    text-shadow: 0px 0px 10px rgba(255, 72, 0, 20), 
+               0px 0px 20px rgba(255, 72, 0, 18), 
+               0px 0px 30px rgba(255, 72, 0, 10);
+    
+
+}
+
+
+button {
+    display: block;
+    position: relative;
+    top: 50px;
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    width: 160px;
+    height: 40px;
+    color: #6a6a66;
+    background-color:#AEC346;
+    box-shadow: 0px 12px 40px rgba(174,195,70,0.35);
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: color 0.9s ease, transform 0.9s ease;
+}
+
+button:hover{
+    opacity:1;
+    color: rgb(3, 6, 23);
+    box-shadow: 0px 12px 40px rgba(189, 216, 10, 0.933);
+    transform: scale(1.1);
+      
+}
+button:active{
+    opacity:0.2;
+}
+
+
+
+
+
+
