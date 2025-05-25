@@ -9,3 +9,4 @@
 <h2>Layout da aplicação</h2>
 <br>
 <img src="https://github.com/GabrielMB13/projeto-random-JS/blob/main/assets/Home%20da%20aplica%C3%A7%C3%A3o.png" alt="img-sorteador">
+<img src="https://github.com/GabrielMB13/projeto-random-JS/blob/main/assets/Home%20da%20aplica%C3%A7%C3%A3o2.png" alt="img-sorteador2">
